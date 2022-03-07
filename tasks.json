@@ -1,66 +1,80 @@
 {
+  "tvzvezda-1-https": {
+    "host": "https://178.248.234.76",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sberbank-app-1": {
+    "host": "194.54.14.131",
+    "port": 4477,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
   "sberbank-1-http": {
     "host": "http://194.54.14.168",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "sberbank-1-https": {
     "host": "https://194.54.14.168",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "sberbank-2-http": {
     "host": "http://5.188.189.254",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "sberbank-2-https": {
     "host": "https://5.188.189.254",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "sberbank-3-https": {
     "host": "https://37.18.111.225",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "sberbank-4-https": {
     "host": "http://185.157.96.145",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-1": {
     "host": "http://193.104.87.251",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-2": {
     "host": "http://194.84.25.50",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-3": {
     "host": "http://193.104.87.248",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "mer-govdnr-ru_http": {
     "host": "http://185.114.138.220",
