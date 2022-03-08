@@ -55,26 +55,47 @@
     "app": "bombardier",
     "enabled": false
   },
-  "rzd-1": {
+  "rzd-1-http": {
     "host": "http://193.104.87.251",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
     "enabled": false
   },
-  "rzd-2": {
+  "rzd-2-http": {
     "host": "http://194.84.25.50",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
     "enabled": false
   },
-  "rzd-3": {
+  "rzd-3-http": {
     "host": "http://193.104.87.248",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
     "enabled": false
+  },
+  "rzd-1-dns": {
+    "host": "217.175.155.100",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "rzd-2-dns": {
+    "host": "217.175.155.12",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "rzd-3-dns": {
+    "host": "217.175.140.71",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
   },
   "mer-govdnr-ru_http": {
     "host": "http://185.114.138.220",
