@@ -1,45 +1,108 @@
 {
+  "seller-games": {
+    "host": "http://185.221.152.254",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "avito-ru-1-http": {
+    "host": "http://146.158.54.24",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-2-http": {
+    "host": "http://46.231.215.242",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-3-http": {
+    "host": "http://94.180.145.12",
+    "port": 1050,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-4-http": {
+    "host": "http://94.180.145.12",
+    "port": 5351,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-5-http": {
+    "host": "http://94.180.145.12",
+    "port": 12581,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-6-http": {
+    "host": "http://94.180.145.12",
+    "port": 58000,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-7-http": {
+    "host": "http://95.79.175.128",
+    "port": 58000,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "avito-ru-1-https": {
+    "host": "https://146.158.54.24",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
   "ok-ru-1-https": {
     "host": "https://5.61.23.11",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ok-ru-2-https": {
     "host": "https://217.20.155.13",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ok-ru-3-https": {
     "host": "https://217.20.147.1",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ok-ru-1-http": {
     "host": "http://5.61.23.11",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ok-ru-2-http": {
     "host": "http://217.20.155.13",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ok-ru-3-http": {
     "host": "http://217.20.147.1",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "tvzvezda-1-https": {
     "host": "https://178.248.234.76",
