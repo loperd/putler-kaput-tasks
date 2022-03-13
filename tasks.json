@@ -4,7 +4,7 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "avito-ru-1-http": {
     "host": "http://146.158.54.24",
@@ -215,5 +215,96 @@
     "executor": "exec",
     "app": "bombardier",
     "enabled": false
+  },
+  "alfabank-ru-1-http": {
+    "host": "http://217.12.104.100",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-2-http": {
+    "host": "http://92.38.145.145",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-2-https": {
+    "host": "https://92.38.145.145",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-2-https-2": {
+    "host": "https://92.38.145.145",
+    "port": 8443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-2-https-3": {
+    "host": "http://92.38.145.145",
+    "port": 10080,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-3-dns": {
+    "host": "92.53.97.198",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "alfabank-ru-4-http": {
+    "host": "http://91.109.201.82",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-4-https": {
+    "host": "http://91.109.201.82",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-4-mikrotik": {
+    "host": "91.109.201.82",
+    "port": 2000,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "alfabank-ru-5-ssh": {
+    "host": "51.250.11.228",
+    "port": 2000,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "alfabank-ru-5-https": {
+    "host": "https://51.250.11.228",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-6-http": {
+    "host": "http://142.250.190.147",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "alfabank-ru-7-http": {
+    "host": "http://172.217.0.179",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
   }
 }
