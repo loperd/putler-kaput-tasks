@@ -738,5 +738,29 @@
     "app": "bombardier",
     "durationSecs": 60,
     "enabled": true
+  },
+  "92.223.100.53_53_udp": {
+    "host": "92.223.100.53",
+    "port": 53,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "udp"
+    ]
+  },
+  "92.223.77.53_53_udp": {
+    "host": "92.223.77.53",
+    "port": 53,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "udp"
+    ]
   }
 }
