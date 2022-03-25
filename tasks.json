@@ -769,7 +769,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "185.165.123.70_443_https": {
     "host": "https://185.165.123.70",
@@ -777,7 +777,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "185.165.123.97_80_http": {
     "host": "http://185.165.123.97",
@@ -785,7 +785,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "185.165.123.97_443_https": {
     "host": "https://185.165.123.97",
@@ -793,7 +793,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "151.236.114.7_80_http": {
     "host": "http://151.236.114.7",
@@ -801,7 +801,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "151.236.114.7_443_https": {
     "host": "https://151.236.114.7",
@@ -809,7 +809,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "151.236.114.6_80_http": {
     "host": "http://151.236.114.6",
@@ -817,7 +817,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "151.236.114.6_443_https": {
     "host": "https://151.236.114.6",
@@ -825,7 +825,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "91.232.93.70_80_http": {
     "host": "http://91.232.93.70",
@@ -833,7 +833,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "91.232.93.70_443_https": {
     "host": "https://91.232.93.70",
@@ -841,7 +841,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "178.248.232.47_80_http": {
     "host": "http://178.248.232.47",
@@ -849,7 +849,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "178.248.232.47_443_https": {
     "host": "https://178.248.232.47",
@@ -857,7 +857,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "213.5.80.180_80_http": {
     "host": "http://213.5.80.180",
@@ -865,7 +865,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "213.5.80.180_443_https": {
     "host": "https://213.5.80.180",
@@ -873,7 +873,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "178.248.233.105_80_http": {
     "host": "http://178.248.233.105",
@@ -889,7 +889,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "212.45.15.218_25_tcp": {
     "host": "212.45.15.218",
@@ -897,7 +897,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "tcp"
@@ -909,10 +909,239 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "212.45.15.218_443_https": {
     "host": "https://212.45.15.218",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": false
+  },
+
+  "217.12.104.100_80_http": {
+    "host": "http://217.12.104.100",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_80_http": {
+    "host": "http://92.38.145.145",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_443_https": {
+    "host": "https://92.38.145.145",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_444_http": {
+    "host": "http://92.38.145.145",
+    "port": 444,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_7264_http": {
+    "host": "http://92.38.145.145",
+    "port": 7264,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_8443_http": {
+    "host": "http://92.38.145.145",
+    "port": 8443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.38.145.145_10080_http": {
+    "host": "http://92.38.145.145",
+    "port": 10080,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "92.53.97.198_53_dns": {
+    "host": "92.53.97.198",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "91.109.201.82_80_http": {
+    "host": "http://91.109.201.82",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "91.109.201.82_443_https": {
+    "host": "https://91.109.201.82",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "91.109.201.82_1194_unknown": {
+    "host": "91.109.201.82",
+    "port": 1194,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "91.109.201.82_2000_mikrotik_bw": {
+    "host": "91.109.201.82",
+    "port": 2000,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "51.250.11.228_22_tcp": {
+    "host": "51.250.11.228",
+    "port": 22,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "51.250.11.228_443_https": {
+    "host": "https://51.250.11.228",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "142.250.190.147_80_http": {
+    "host": "http://142.250.190.147",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "172.217.0.179_80_http": {
+    "host": "http://172.217.0.179",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "185.10.185.150_80_http": {
+    "host": "http://185.10.185.150",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "185.10.185.150_443_https": {
+    "host": "https://185.10.185.150",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "185.10.185.150_5432_tcp": {
+    "host": "185.10.185.150",
+    "port": 5432,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "185.10.185.150_5672_tcp": {
+    "host": "185.10.185.150",
+    "port": 5672,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "193.104.87.172_80_http": {
+    "host": "http://193.104.87.172",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "193.104.87.172_443_https": {
+    "host": "https://193.104.87.172",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "194.84.25.79_80_http": {
+    "host": "http://194.84.25.79",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "194.84.25.79_443_https": {
+    "host": "https://194.84.25.79",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "213.33.173.184_80_http": {
+    "host": "http://213.33.173.184",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "213.33.173.184_443_https": {
+    "host": "https://213.33.173.184",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",

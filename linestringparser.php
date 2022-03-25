@@ -28,12 +28,13 @@ $lines = \explode(PHP_EOL, $contents);
 function buildTargets(string $ip, string $portsString): array
 {
     $portsString = \trim($portsString, '()');
-    $ports = \explode(', ', $portsString);
+    $ports = \explode(',', $portsString);
     $targets = [];
 
     foreach ($ports as $port) {
         [$portId, $protocol] = \explode('/', $port);
         $portId = (int) $portId;
+        $protocol = \trim(\mb_strtolower($protocol));
 
         switch ($portId) {
             case 443:
@@ -44,6 +45,11 @@ function buildTargets(string $ip, string $portsString): array
                 break;
             case 53:
                 $protocol = 'dns';
+                break;
+            case 5432:
+            case 5672:
+            case 22:
+                $protocol = 'tcp';
                 break;
             default:
         }
@@ -112,6 +118,10 @@ function buildTarget(string $protocol, string $ip, int $portId): array
         ],
     ];
 
+    if (!isset($templates[$protocol])) {
+        $protocol = 'tcp';
+    }
+
     $target = $templates[$protocol];
     $target['host'] = \sprintf($target['host'], $ip);
     $target['port'] = $portId;
@@ -130,8 +140,8 @@ foreach($lines as $line) {
     }
 
     $ports = $parts[1];
-    if (1 !== \preg_match('/tcp|udp|http|https/', $ports)) {
-        echo \sprintf('Line "%s" not contains tcp/udp ports', $line);
+    if (1 !== \preg_match('/tcp|udp|dns|mikrotik_bw|postgres|amqp|http|https/i', $ports)) {
+        echo \sprintf('Line "%s" not contains tcp/udp ports', $line) . PHP_EOL;
         continue;
     }
 
